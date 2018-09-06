@@ -2,6 +2,10 @@
 
 A translator for american sign language built with convolutional neural networks (CNN).
 For this project I only took four letters of the alphabet: A, B, C and D. So, the model was trained only for this signs and could predict only these letters.
+![asl](https://user-images.githubusercontent.com/9748855/45159128-5900e900-b1bc-11e8-8d9c-60ee3115bf35.png)
+
+For the model trainning I use the dataset from [Kaggle](https://www.kaggle.com/grassknoted/asl-alphabet) (Thanks to Akash)
+and also [this one](https://www.kaggle.com/danrasband/asl-alphabet-test) (Thanks  to Dan Rasband)
 
 ## Getting started
 
@@ -29,6 +33,15 @@ Once you have cloned the repository you need to install some libraries of python
  pip install matplotlib.pyplot
  pip install tqdm
 ```
+
+## Running the code
+
+Within the project folder you have to run this command to run the code.
+```
+ python image.py
+```
+Then the app will ask you for an option there are four options to chose.
+
 
 ## Built with
 * [Python](https://www.python.org/) - An interpreted high-level programming language.
