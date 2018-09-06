@@ -14,12 +14,12 @@ while(True):
 	print('')
 
 	if option.lower() == 'c':
+		print('========================================')
+		print('Press c to take a picture and predict')
+		print('Press q to exit')
+		print('========================================')
 		cap = cv2.VideoCapture(0)	# 0 first camera (laptop camera)
 		while(True):
-			print('========================================')
-			print('Press c to take a picture and predict')
-			print('Press q to exit')
-			print('========================================')
 			_, frame = cap.read()
 			gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 			rows,cols = gray.shape
