@@ -42,7 +42,7 @@ Within the project folder you have to run this command.
 ```
  python image.py
 ```
-Then the app will ask you for an option there are four options to chose.
+Then the app will ask you for an option, there are four options to chose.
 
 
 ## Built with
