@@ -1,11 +1,13 @@
 # ASL-CNN
 
 A translator for american sign language built with convolutional neural networks (CNN).
-For this project I only took four letters of the alphabet: A, B, C and D. So, the model was trained only for this signs and could predict only these letters.
+For this project I only took four letters of the alphabet: A, B, C and D. So, the model was trained only for this signs and it could predict only these letters.
 ![asl](https://user-images.githubusercontent.com/9748855/45159128-5900e900-b1bc-11e8-8d9c-60ee3115bf35.png)
 
-For the model trainning I use the dataset from [Kaggle](https://www.kaggle.com/grassknoted/asl-alphabet) (Thanks to Akash)
+For training the model I used the dataset from [Kaggle](https://www.kaggle.com/grassknoted/asl-alphabet) (Thanks to Akash)
 and also [this one](https://www.kaggle.com/danrasband/asl-alphabet-test) (Thanks  to Dan Rasband)
+
+It is important to know that in the project folder you already have the model trained, if you want to create another model you have to download the datasets and then preprocess the data (you should modify the original code).
 
 ## Getting started
 
@@ -36,7 +38,7 @@ Once you have cloned the repository you need to install some libraries of python
 
 ## Running the code
 
-Within the project folder you have to run this command to run the code.
+Within the project folder you have to run this command.
 ```
  python image.py
 ```
