@@ -44,6 +44,15 @@ Within the project folder you have to run this command.
 ```
 Then the app will ask you for an option, there are four options to chose.
 
+![options](https://user-images.githubusercontent.com/9748855/45190600-26cfa580-b215-11e8-9399-80611b6af835.png)
+
+a) It is for create and train the model if you don't have any model in the folder.
+b) It is to test the model with images in the folder "test".
+c) It is to tes the model but taking the pictures with the webcam, using opencv.
+
+If you select c) then you have to press c to capture an image and predict the letter with your model. If you want return to main menu just press q.
+
+![test](https://user-images.githubusercontent.com/9748855/45190512-b032a800-b214-11e8-9d54-cb44b034b537.png)
 
 ## Built with
 * [Python](https://www.python.org/) - An interpreted high-level programming language.
