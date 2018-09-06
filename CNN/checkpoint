@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Kike\\Documents\\OpenCV\\asl-alphabet(A,B,C,D,epochs30,LR1e-6)-1e-06-2conv-basic.model"
+all_model_checkpoint_paths: "C:\\Users\\Kike\\Documents\\OpenCV\\asl-alphabet(A,B,C,D,epochs30,LR1e-6)-1e-06-2conv-basic.model"
